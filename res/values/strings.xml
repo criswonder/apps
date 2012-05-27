@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">掌中气象</string>
+	<string name="currently_city">当前城市</string>
+	<string name="date">日期</string>
+	<string name="ok">确定</string>
+    <string name="cancel">取消</string>
+	<string name="max_t">最高温度</string>
+	<string name="min_t">最低温度</string>
+	<string name="change_city">切换城市</string>
+	<string name="loading">正在加载数据,请稍候......</string>
+    <string name="input_city_hint">城市名(国外输入英文)</string>
+    <string name="city_error">城市名不存在,请重新输入!</string>
+    <string name="can_not_null">城市名不能为空!</string>
+    <string name="net_error">网络连接失败,请确认GPRS可用!</string>
+    <string name="set_defulat_city">设为默认城市</string>
+    <string name="defulat_city">北京</string>
+    <string name="config_success">设置默认城市成功!</string>
+    <string name="send_success">短信发送成功!</string>
+    <string name="util">菜单</string>
+    <string name="exit">退出</string>
+    <string name="exit_warn">确认退出吗?</string>
+    <string name="sms_send">短信发送</string>
+    <string name="cms_send">彩信发送</string>
+    <string name="use_hint">使用说明</string>
+    <string name="hint">提示</string>
+    <string name="phoneBook">电话本</string>
+    <string name="manual">手动输</string>
+    <string name="addressee">选择收信人</string>
+    <string name="send">发送</string>
+    <string name="sending">正在发送，请稍候.......</string>
+    <string name="send_faild">发送失败!</string>
+    <string name="explain">使用说明</string>
+    <string name="explain_context">
+             \t\t掌中气象是一款免费功能完善,操作简单的天气预报
+          查询软件，支持全球10万多个城市的查询,为你提供实时天气信息。\n
+	     功能:\n
+	    \t 1 可查询全球绝大部分地域天气信息,数\t\t\t据实时更新.\n
+	    \t 2 可以设置默认城市,每次运行将显示默\t\t\t认城市天气.\n
+	    \t 3 可将天气信息发送给你的朋友,送上你\t\t\t的一份关心.\n
+	     声明:\n
+	    \t 1 天气数据来自互联网,并不能保证100%\t\t\t准确.\n
+	    \t 2 本软件运行环境为android2.2及以上版本.\n
+	    \t 3 掌中气象不收取任何费用,GPRS流量费\t\t\t用由运营商收取.\n
+	     如果您对掌中气象有什么建议或意见，希望你能联系作者.\n
+	   E-mail:xj753277@126.com\n
+	   QQ:345360459\n
+    </string>
+</resources>

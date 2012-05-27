@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical" >
+	<TextView
+	    android:id="@+id/textView_error"
+	    android:layout_centerHorizontal="true"
+	    android:layout_width="150dip"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/orange"
+        android:textSize="16sp" ></TextView>
+
+    <EditText
+        android:id="@+id/city_name"
+        android:layout_width="150dip"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView_error"
+        android:maxLength="12"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/set_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/city_name"
+        android:layout_below="@id/city_name"
+        android:hint="@string/set_defulat_city"
+        android:textColorHint="@color/blue" />
+
+    <Button
+        android:id="@+id/opt_full"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set_checkbox"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="15px"
+        android:background="@drawable/confirm" />
+
+    <Button
+        android:id="@+id/cancel_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/set_checkbox"
+        android:layout_marginRight="50px"
+        android:layout_marginTop="15px"
+        android:background="@drawable/cancel" />
+
+    <LinearLayout
+        android:id="@+id/error_img"
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="20px" />
+
+</RelativeLayout>
